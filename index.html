@@ -7,18 +7,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    
     <nav>
-        Enter the Contest for the Vacation of a Lifetime
+        Enter the Contest for the Vacation of a 2 Lifetimes
     </nav>
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
         <form method="GET" action="results.html">
             <div>
-                <label for="firstname">Your First Name</label>
-                <input type="text" id="firstname" name="firstname">
-                <label for="lastname">Your Last Name</label>
-                <input type="text" id="lastname" name="lastname">
-            </div>
+                <label for="firstname" required="">Your Frist Name</label><span class="required-field">*</span>
+
+                <input type="text" id="firsname" name="firstname " minlebght="2" maxlength="35">
+                <label for="lastname">Your Last Name</label> <span class="required-field">*</span>
+
+                <input type="text" id="lastname" name="lastname" minlength="2" maxlength="35">
+                <label for="age">Your Age</label><span class="required-field">*</span>
+
+<input type="number" name="age" id="age" min="21" max="120">
+<label for="zip">ZIP code</label><span class="required-field">*</span>
+<input type="text" pattern=[0-9]{5} title="5-Digit US ZIP Code" name="zip" id="zip">
+<label for="secret" required="">Your Secret Code</label><span class="required-field">*</span>
+<input type="password" pattern=[0-9a-zA-Z]{6} title="6 Alphanumeric Character Passcode" name="secret<input type="number" name="age" id="age" min="21" max="120">
+    <h3> Need to Be 21 or older to Enter</h3>
             <fieldset>
                 <legend>Your Contact Info</legend>
                 <div>
