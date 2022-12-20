@@ -57,12 +57,12 @@
         // Change display based on whether they won or not
         if (winner) {
             document.getElementById('status-message').textContent = `Congrats, ${name}, YOU WON!`
-            document.getElementById('sub-message').textContent = `PACK YOUR BAGS, YOU'RE GOING TO ${choice.toUpperCase()}!`
+            document.getElementById('sub-message').textContent = `PACK YOUR BAGS, YOU'RE GOING To have a great time at ${choice.toUpperCase()}!`
             document.getElementById('status-message').style.color = color || 'crimson'
             document.getElementById('small-print').textContent = `Extras (${extras.join(', ')}) must be requested upon arrival at your destination`
         }
         else {
-            document.getElementById('status-message').textContent = `Sorry, ${name}, You Didn't Win This Time!`
+            document.getElementById('status-message').textContent = `UH OH Sorry, ${name}, You Didn't Win This Time!`
             document.getElementById('sub-message').textContent = `Maybe you'll get to ${choice} next time!`
             document.getElementById('small-print').textContent = 'Better luck next time!'
         }
