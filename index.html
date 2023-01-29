@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Form</title>
+    <title>Vacation Time!</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -12,33 +12,24 @@
     </nav>
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
-        <form method="GET" action="results.html">
+       <form method="GET" action="results.html">
             <div>
                 <label for="firstname">Your First Name</label>
                 <input type="text" id="firstname" name="firstname">
                 <label for="lastname">Your Last Name</label>
-                <input type="text" id="lastname" name="lastname">
+                <input type="text" id="lastname" name="lastname>
             </div>
-            <fieldset>
-                <legend>Your Contact Info</legend>
-                <div>
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div>
-                    <label for="address">Your Street Address</label>
-                    <input type="text" id="address" name="address">
-                </div>
-                <div>
-                    <label for="city">Your City</label>
-                    <input type="text" id="city" name="city">
-                    <label for="state">Your State</label>
-                    <input list="state-list" id="state" name="state">
-                    <datalist id="state-list">
-                        <option value="AK">Alaska</option>
+             <fieldset>
+                    <legend>Your Contact Info</legend>
+                    label for="Street Address">Your Street Address</label>
+                    <input type="text" id="email" name="email"> 
+                    <select name="state"><label for="email">Your Email</label>
+                    <input type="text" id="email" name="email"> 
+                    <select name="state"> 
                         <option value="AL">Alabama</option>
-                        <option value="AR">Arkansas</option>
+                        <option value="AK">Alaska</option>
                         <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
                         <option value="CA">California</option>
                         <option value="CT">Connecticut</option>
                         <option value="CO">Colorado</option>
@@ -68,8 +59,8 @@
                         <option value="NM">New Mexico</option>
                         <option value="NV">Nevada</option>
                         <option value="NY">New York</option>
-                        <option value="OK">Oklahoma</option>
                         <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
                         <option value="OR">Oregon</option>
                         <option value="PA">Pennsylvania</option>
                         <option value="RI">Rhode Island</option>
@@ -84,12 +75,18 @@
                         <option value="WI">Wisconsin</option>
                         <option value="WV">West Virginia</option>
                         <option value="WY">Wyoming</option>
-                    </datalist>
-                    <label for="zip">Your Zipcode</label>
-                    <input type="text" id="zip" name="zip">
-                </div>
-            </fieldset>
-
+                        <form action="results.html" method="GET"> 
+                        </select>
+                        <label for="zip">Your Zipcode</label>
+                        <input type="text" id="zip" name="zip">
+                    </div>
+                </fieldset>
+                        </form>
+                        
+                    
+                    
+                </fieldset>
+            </form>
             <fieldset>
                 <legend>Your Preferences</legend>
                 <h3>Choose your location</h3>
@@ -109,30 +106,31 @@
                     <input type="radio" id="new-zealand" name="location" value="New Zealand"> 
                     <label for="new-zealand">New Zealand</label>
                 </div>
-                <div>
-                    <label for="color">Favorite Color</label>
-                    <input type="color" id="color" name="color">
-                </div>
-                <h3>Please select any add-ons you'd like:</h3>
-                <div>
-                    <input type="checkbox" id="sauna" name="extras" value="Sauna Access" checked> 
-                    <label for="sauna">Sauna Access</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="hottub" name="extras" value="Hot Tub"> 
-                    <label for="hottub">In-Room Hot Tub</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="ocean" name="extras" value="Ocean View"> 
-                    <label for="ocean">Ocean View</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="drinks" name="extras" value="Drinks Package"> 
-                    <label for="drinks">All-inclusive Drinks Package</label>
-                </div>
             </fieldset>
-            
-            <input type="submit" value="Enter the Contest!">
+            <div>  <label for="color">Favorite Color</label>
+                <input type="color" id="color" name="color">
+            </div>
+            <h3>Please select any add-ons you'd like:</h3>
+            <div>
+                <input type="checkbox" id="sauna" name="extras" value="Sauna Access"> 
+                <label for="sauna">Sauna Access</label>
+            </div>
+            <div>
+                <input type="checkbox" id="hottub" name="extras" value="Hot Tub"> 
+                <label for="hottub">In-Room Hot Tub</label>
+            </div>
+            <div>
+                <input type="checkbox" id="ocean" name="extras" value="Ocean View"> 
+                <label for="ocean">Ocean View</label>
+            </div>
+            <div>
+                <input type="checkbox" id="drinks" name="extras" value="Drinks Package"> 
+                <label for="drinks">All-inclusive Drinks Package</label>
+            </div>
+        </fieldset>
+        
+        <input type="submit" value="Enter the Contest!">
+    </form></div>
         </form>
     </main>
     <footer>
